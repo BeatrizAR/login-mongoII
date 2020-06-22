@@ -1,6 +1,6 @@
 import React, {Fragment, useState} from 'react';
 
-function registro() {
+function Registro() {
     
     const [datos, setDatos] = useState({
         usuario: '',
@@ -9,7 +9,6 @@ function registro() {
         confirm_password:''
     })
     
-
     return (
         <Fragment>
             
@@ -30,4 +29,4 @@ function registro() {
     )
 }
 
-export default registro
+export default Registro
